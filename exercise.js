@@ -8,3 +8,10 @@
 
 // MEET ME AT NOON ==> RJJY RJ FY STTS
 // SECURITY ==> XJHZWNYD 
+
+
+// Exercise 1.2: Decrypt (Shift Left 7)
+
+// Ciphertext Your Answer
+
+// OLSSV ==> HELLO
