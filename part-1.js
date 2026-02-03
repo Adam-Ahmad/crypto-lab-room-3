@@ -3,17 +3,15 @@
 // KHOOR
 
 // Exercise 1.1: Encrypt (Shift Right 5)
-
-
-// A=0
-// B=1
-// C=2
-// D=3
-// E=4
-// F =5
-// G=6
-// H=7
-// I =8
+// A = 0
+// B = 1
+// C = 2
+// D = 3
+// E = 4
+// F = 5
+// G = 6
+// H = 7
+// I = 8
 // J = 9
 // K = 10
 // L = 11
@@ -32,14 +30,14 @@
 // Y = 24
 // Z = 25
 
-// Plaintext Your Answer
+// Plaintext              Your Answer
 
-// MEET ME AT NOON ==> RJJY RJ FY STTS
-// SECURITY ==> XJHZWNYD 
+// MEET ME AT NOON    ==>  RJJY RJ FY STTS
+// SECURITY           ==>  XJHZWNYD 
 
 
 // Exercise 1.2: Decrypt (Shift Left 7)
 
-// Ciphertext Your Answer
+// Ciphertext       Your Answer
 
-// OLSSV ==> HELLO
+// OLSSV       ==>  HELLO
