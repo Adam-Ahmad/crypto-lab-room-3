@@ -1,0 +1,46 @@
+// Exercise 2.1: Complete the Encryption
+function caesarEncrypt(text, shift) {
+  let result = "";
+  for (let i = 0; i < text.length; i++) {
+    let char = text[i];
+    if (char >= "A" && char <= "Z") {
+      let position = char.charCodeAt(0) - 65;
+      let newPosition = (position + shift) % 26;
+      result += String.fromCharCode(newPosition + 65);
+    } else if (char >= "a" && char <= "z") {
+      // Logic for lowercase letters
+      let position = char.charCodeAt(0) - 97;
+      let newPosition = (position + shift) % 26;
+      result += String.fromCharCode(newPosition + 97);
+    } else {
+      result += char;
+    }
+  }
+  return result;
+}
+
+console.log(`The Encryption is: ${caesarEncrypt("Hello World", 3)}`);
+
+// Exercise 2.2: Write Decryption
+
+function caesarDecrypt(text, shift) {
+  let result = "";
+  for (let i = 0; i < text.length; i++) {
+    let char = text[i];
+    if (char >= "A" && char <= "Z") {
+      let position = char.charCodeAt(0) - 65;
+      // Subtract shift and add 26 to ensure the result isn't negative
+      let newPosition = (position - shift + 26) % 26;
+      result += String.fromCharCode(newPosition + 65);
+    } else if (char >= "a" && char <= "z") {
+      let position = char.charCodeAt(0) - 97;
+      let newPosition = (position - shift + 26) % 26;
+      result += String.fromCharCode(newPosition + 97);
+    } else {
+      result += char;
+    }
+  }
+  return result;
+}
+
+console.log(`The Decryption is:${caesarDecrypt("Khoor Zruog", 3)}`);
