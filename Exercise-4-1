@@ -1,0 +1,14 @@
+Exercise 4.1: RSA with Small Numbers
+
+Public Key: (n=33, e=7) Private Key: (n=33, d=3)
+
+Formula : M = C^d mod n
+
+Encrypt M = 2: 
+
+• Calculate: 2^7 = 128 
+
+• Calculate: M = C^d mod n    ==> 128 mod 33 = 29          
+
+• Ciphertext C =  29          
+
